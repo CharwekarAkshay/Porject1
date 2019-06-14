@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+    </head>
+    <body>
+        <form action="{{ url_for('register') }}" method="POST">
+            Name: <input type="text" name="username"/>
+            Password: <input type="password" name="password" />
+            Repassword: <input type="password" name="repassword" />
+            Mobile: <input type="number" name="mobile" />
+            <button>Submit Button</button>
+        </form>
+    </body>
+</html>

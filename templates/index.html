@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rgestration/Login Page</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+        <script src=""></script>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li id="brand-name">Manga Readers</li>
+            </ul>
+        </header>
+        <body>
+            <a href="{{ url_for('register') }}">Register....</a>
+            <a href="{{ url_for('signin') }}">Sign In .. </a>
+        </body>
+    </body>
+</html>
